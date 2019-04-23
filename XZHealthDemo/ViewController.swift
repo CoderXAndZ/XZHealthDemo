@@ -4,7 +4,7 @@
 //
 //  Created by admin on 2019/4/19.
 //  Copyright © 2019 admin. All rights reserved.
-//
+//  HealthKit 方式实现
 
 import UIKit
 import HealthKit
@@ -20,10 +20,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "HealthKit"
+        
         //
-        manager.authorizeStepCount { (success) in
-            
-        }
+        manager.authorizeStepCount { (success) in }
+        
     }
     
     /// 向系统中添加步数

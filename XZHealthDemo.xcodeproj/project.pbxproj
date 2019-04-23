@@ -15,6 +15,8 @@
 		84B5BA5D2269C5C70085B3FA /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B5BA5C2269C5C70085B3FA /* HealthKit.framework */; };
 		84B5BA602269C7B40085B3FA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5BA5E2269C7B40085B3FA /* String+Extension.swift */; };
 		84B5BA612269C7B40085B3FA /* XZHealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5BA5F2269C7B40085B3FA /* XZHealthManager.swift */; };
+		84B5BA63226DB90B0085B3FA /* XZCoreMotionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5BA62226DB90B0085B3FA /* XZCoreMotionController.swift */; };
+		84B5BA65226DBA100085B3FA /* XZCoreMotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5BA64226DBA100085B3FA /* XZCoreMotionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		84B5BA5C2269C5C70085B3FA /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		84B5BA5E2269C7B40085B3FA /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		84B5BA5F2269C7B40085B3FA /* XZHealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZHealthManager.swift; sourceTree = "<group>"; };
+		84B5BA62226DB90B0085B3FA /* XZCoreMotionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZCoreMotionController.swift; sourceTree = "<group>"; };
+		84B5BA64226DBA100085B3FA /* XZCoreMotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZCoreMotionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +69,11 @@
 			children = (
 				84B5BA5A2269C5C70085B3FA /* XZHealthDemo.entitlements */,
 				84B5BA482269C51A0085B3FA /* AppDelegate.swift */,
-				84B5BA4A2269C51A0085B3FA /* ViewController.swift */,
 				84B5BA5E2269C7B40085B3FA /* String+Extension.swift */,
 				84B5BA5F2269C7B40085B3FA /* XZHealthManager.swift */,
+				84B5BA4A2269C51A0085B3FA /* ViewController.swift */,
+				84B5BA64226DBA100085B3FA /* XZCoreMotionManager.swift */,
+				84B5BA62226DB90B0085B3FA /* XZCoreMotionController.swift */,
 				84B5BA4C2269C51A0085B3FA /* Main.storyboard */,
 				84B5BA4F2269C51C0085B3FA /* Assets.xcassets */,
 				84B5BA512269C51C0085B3FA /* LaunchScreen.storyboard */,
@@ -160,7 +166,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B5BA65226DBA100085B3FA /* XZCoreMotionManager.swift in Sources */,
 				84B5BA4B2269C51A0085B3FA /* ViewController.swift in Sources */,
+				84B5BA63226DB90B0085B3FA /* XZCoreMotionController.swift in Sources */,
 				84B5BA602269C7B40085B3FA /* String+Extension.swift in Sources */,
 				84B5BA492269C51A0085B3FA /* AppDelegate.swift in Sources */,
 				84B5BA612269C7B40085B3FA /* XZHealthManager.swift in Sources */,

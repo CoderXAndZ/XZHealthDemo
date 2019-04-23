@@ -24,6 +24,8 @@
 	<string>some string value stating the reason</string>
 	<key>NSHealthUpdateUsageDescription</key>
 	<string>some string value stating the reason</string>
+	<key>NSMotionUsageDescription</key>
+	<string>请求运动权限</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
